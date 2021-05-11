@@ -1,0 +1,4 @@
+h1 { text-align: center; font-size : 18px;}
+div{ width: 500px; margin : 0px auto;}
+button { position : fixed; bottom : 50px; right: 50px; cursor :pointer;  width: 40px; height: 40px; background-color: #ccc; border: none; padding : 0px; }
+button i { font-size : 16px;}
