@@ -12,11 +12,11 @@ $(function(){
 
     $(target).click(function() {
         if($(window).scrollTop() == 0){
-            //맨 밑으로 이동하는 코드
+            //맨 아래로 이동하는 코드
             $('html , body').animate({scrollTop:$('.footer_location').offset().top}, 300);
         }
         else{
-            //맨 아래로 이동하는 코드
+            //맨 위로 이동하는 코드
             $('html , body').animate({scrollTop:0}, 300);
         } 
     })
